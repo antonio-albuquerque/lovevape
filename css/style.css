@@ -168,6 +168,9 @@ ul {
 /* ----------------------------------------------
 	1.2 Typography 
 ----------------------------------------------- */
+.link:hover{
+    color: #9E9E9E;
+}
 
 a {
     cursor: pointer;
@@ -1019,7 +1022,8 @@ label.checkme {
     border-radius: 0;
     border: 0;
     margin: 0;
-    background: #424242;
+    background: rgb(56,56,62);
+    background: radial-gradient(circle, rgba(56,56,62,0.5438376034007353) 0%, rgba(56,56,62,0.829551889115021) 34%, rgba(0,0,0,1) 65%); 
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -1382,7 +1386,7 @@ label.checkme {
     float: right;
     font-size: 21px;
     line-height: 1;
-    color: #000;
+    color: #ccc;
 }
 #category-menu-responsive .nav>li {
     margin: 0 20px;
